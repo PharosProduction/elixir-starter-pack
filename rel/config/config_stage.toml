@@ -1,0 +1,7 @@
+title = "Server Stage Configuration"
+
+[auth]
+demo_value = "Hello from Stage Core!"
+
+[users]
+demo_value = "Hello from Stage Core!"

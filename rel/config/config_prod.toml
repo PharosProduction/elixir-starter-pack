@@ -1,0 +1,7 @@
+title = "Server Prod Configuration"
+
+[auth]
+demo_value = "Hello from Prod Core!"
+
+[users]
+demo_value = "Hello from Prod Core!"

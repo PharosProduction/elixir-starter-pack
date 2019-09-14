@@ -1,0 +1,27 @@
+// protoc --elixir_out=plugins=grpc:./ ./apps/categories/lib/categories/api_mobile/*.proto
+
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "elixir_starter_pack.categories.api_mobile";
+
+package categories.api_mobile;
+
+message Category {
+  string id = 1;
+  string name = 2;
+}
+
+message CategoriesFetchAllRequest {
+  int32 page_size = 1;
+  string page_token = 2;
+}
+
+message CategoriesFetchAllResponse {
+  repeated Category categories = 1;
+  string next_page_token = 2;
+}
+
+service CategoriesMobileService {
+  rpc CategoriesFetchAll(CategoriesFetchAllRequest) returns (stream CategoriesFetchAllResponse) {};
+}
