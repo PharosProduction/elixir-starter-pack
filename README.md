@@ -38,3 +38,6 @@ Created by [Dmytro Nasyrov, Founder, CTO at Pharos Production Inc.](https://www.
 [Pharos Production Inc. - Distributed Systems, Blockchain and FinTech enterprise software development](https://pharosproduction.com)
 
 2019 Pharos Production Inc.
+
+By [Dmytro Nasyrov, Founder, CTO at Pharos Production Inc.](https://www.linkedin.com/in/dmytronasyrov/)
+And [Pharos Production Inc. - Web3, blockchain, fintech, defi software development services](https://pharosproduction.com)
